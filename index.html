@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Renato Menero · AI Automation Engineer</title>
-<meta name="description" content="Renato Menero — AI Automation Engineer. Agentes de IA, MCP, RAG e integrações com LLMs em produção.">
+<meta name="description" content="Renato Menero — AI Automation Engineer. Agentes de IA em produção, MCP e integrações com LLMs e sistemas sem API.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
@@ -315,8 +315,8 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <h2 data-i18n-html="impact.title">Agentes em produção,<br><span class="grad">não em slide.</span></h2>
     <p class="lead" data-i18n="impact.lead">Números de uma operação real, rodando todos os dias numa escola em Campinas.</p></div>
     <div class="stats">
-      <div class="stat reveal" style="--delay:.0s"><div class="num"><span class="count" data-to="15">0</span></div><p data-i18n="impact.s1">agentes de IA em produção</p><div class="bar"></div></div>
-      <div class="stat reveal" style="--delay:.1s"><div class="num"><span class="count" data-to="45">0</span><sup>+</sup></div><p data-i18n="impact.s2">pessoas atendidas pelos agentes</p><div class="bar"></div></div>
+      <div class="stat reveal" style="--delay:.0s"><div class="num"><span class="count" data-to="50">0</span><sup>+</sup></div><p data-i18n="impact.s1">agentes de IA em produção</p><div class="bar"></div></div>
+      <div class="stat reveal" style="--delay:.1s"><div class="num"><span class="count" data-to="100">0</span><sup>%</sup></div><p data-i18n="impact.s2">da escola atendida: direção, professores, secretaria e famílias</p><div class="bar"></div></div>
       <div class="stat reveal" style="--delay:.2s"><div class="num"><span class="count" data-to="24">0</span>/7</div><p data-i18n="impact.s3">operação contínua, pedidos direto do celular</p><div class="bar"></div></div>
       <div class="stat reveal" style="--delay:.3s"><div class="time-swap"><s data-i18n="impact.before">1+ dia</s><span class="arrow">→</span><span class="grad" data-i18n="impact.after">horas</span></div><p data-i18n="impact.s4">para processos como planilhas e correção de provas</p><div class="bar"></div></div>
     </div>
@@ -328,7 +328,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
   <div class="wrap">
     <div class="reveal"><span class="eyebrow" data-i18n="demo.eyebrow">Como funciona</span>
     <h2 data-i18n-html="demo.title">Um pedido no celular.<br><span class="grad">O agente resolve o resto.</span></h2>
-    <p class="lead" data-i18n="demo.lead">Simulação de um fluxo típico: o agente entende o pedido, consulta sistemas via MCP, busca regras com RAG, prepara a entrega e espera a aprovação humana.</p></div>
+    <p class="lead" data-i18n="demo.lead">Simulação de um fluxo típico: o agente entende o pedido, consulta sistemas via MCP, busca as regras na base de conhecimento, prepara a entrega e espera a aprovação humana.</p></div>
 
     <div class="demo reveal">
       <div class="phone">
@@ -344,7 +344,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
         <div class="pipeline" id="pipe">
           <div class="step"><b>01</b><span data-i18n="pipe.1">Pedido</span></div>
           <div class="step"><b>02</b><span data-i18n="pipe.2">Agente</span></div>
-          <div class="step"><b>03</b><span>MCP · RAG</span></div>
+          <div class="step"><b>03</b><span>MCP · regras</span></div>
           <div class="step human"><b>04</b><span data-i18n="pipe.4">Aprovação humana</span></div>
           <div class="step"><b>05</b><span data-i18n="pipe.5">Entrega</span></div>
         </div>
@@ -386,7 +386,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
               <path d="M280 105L120 50"/><path d="M280 105L110 160"/><path d="M280 105L440 45"/><path d="M280 105L450 160"/><path d="M280 105L280 20"/><path d="M280 105L280 190"/>
             </g>
             <circle cx="280" cy="105" r="26" fill="#0e1422" stroke="#2dd4bf" stroke-width="2" class="pulse-c"/>
-            <text x="280" y="110" text-anchor="middle" fill="#e8edf7" font-family="Space Grotesk" font-weight="700" font-size="15">15</text>
+            <text x="280" y="110" text-anchor="middle" fill="#e8edf7" font-family="Space Grotesk" font-weight="700" font-size="15">50+</text>
             <g fill="#0e1422" stroke-width="1.5">
               <circle cx="120" cy="50" r="9" stroke="#2dd4bf"/><circle cx="110" cy="160" r="9" stroke="#2dd4bf"/><circle cx="440" cy="45" r="9" stroke="#fbbf24"/><circle cx="450" cy="160" r="9" stroke="#a78bfa"/><circle cx="280" cy="20" r="7" stroke="#2dd4bf"/><circle cx="280" cy="190" r="7" stroke="#2dd4bf"/>
             </g>
@@ -394,7 +394,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
         </div>
         <div class="proj-body"><span class="badge live" data-i18n="proj.live">Em produção</span>
           <h3 data-i18n="proj.p1t">Ecossistema de agentes escolares</h3>
-          <p data-i18n="proj.p1">15 agentes que cuidam de demandas de coordenação, professores, secretaria, marketing e atendimento a pais, com aprovação humana antes de cada entrega.</p>
+          <p data-i18n="proj.p1">Mais de 50 agentes que atendem a escola inteira: direção, coordenação, professores, secretaria, financeiro, marketing e famílias, com aprovação humana nos pontos críticos.</p>
           <div class="tags"><span>Claude</span><span>MCP</span><span>RAG</span><span>WhatsApp</span><span>Human-in-the-loop</span></div></div>
       </article>
 
@@ -434,9 +434,9 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
           </svg>
         </div>
         <div class="proj-body"><span class="badge live" data-i18n="proj.live">Em produção</span>
-          <h3 data-i18n="proj.p3t">RAG sobre regras e documentos</h3>
-          <p data-i18n="proj.p3">Base de conhecimento vetorizada para os agentes responderem com as regras reais da instituição, citando a fonte.</p>
-          <div class="tags"><span>Embeddings</span><span>Vector DB</span><span>Claude</span><span>OpenAI</span></div></div>
+          <h3 data-i18n="proj.p3t">IA que opera sistemas sem API</h3>
+          <p data-i18n="proj.p3">Agentes trabalhando em plataformas legadas, CRM e financeiro que não têm API, com automação de navegador, login automático, cofre de credenciais e vigia de sessão.</p>
+          <div class="tags"><span>Puppeteer</span><span>Node.js</span><span>Credential vault</span><span>Monitoring</span></div></div>
       </article>
 
       <article class="proj reveal" style="--delay:.1s">
@@ -458,6 +458,13 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
           <div class="tags"><span>Apps Script</span><span>JavaScript</span><span>SQL</span><span>Dashboards</span></div></div>
       </article>
     </div>
+    <div class="reveal" style="margin-top:28px;display:flex;flex-wrap:wrap;gap:12px;align-items:center">
+      <span class="eyebrow" style="margin-right:6px">Open source</span>
+      <a class="chip" href="https://github.com/menero20/arquitetura-agentes-ia" target="_blank" rel="noopener">arquitetura-agentes-ia</a>
+      <a class="chip" href="https://github.com/menero20/mcp-oficina-demo" target="_blank" rel="noopener">mcp-oficina-demo</a>
+      <a class="chip" href="https://github.com/menero20/ia-eng" target="_blank" rel="noopener">ia-eng · PyTorch</a>
+      <a class="chip" href="https://github.com/menero20/transcrever-audio-local" target="_blank" rel="noopener">transcrever-audio-local</a>
+    </div>
   </div>
 </section>
 
@@ -476,7 +483,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;
     <p class="lead" data-i18n="tl.lead">Anos resolvendo problemas na linha de frente me ensinaram a automatizar o que realmente importa para quem usa.</p></div>
     <div class="timeline" id="timeline">
       <div class="tl-progress" id="tlp"></div>
-      <div class="tl-item reveal"><div class="tl-date" data-i18n="tl.d1">2025 — hoje</div><h3>Intelligent Automation Developer</h3><div class="co">Colégio Crescer · Campinas</div><p data-i18n="tl.p1">15 agentes de IA em produção, servidores MCP, RAG e sistemas internos de ponta a ponta.</p></div>
+      <div class="tl-item reveal"><div class="tl-date" data-i18n="tl.d1">2025 — hoje</div><h3>Intelligent Automation Developer</h3><div class="co">Colégio Crescer · Campinas</div><p data-i18n="tl.p1">Mais de 50 agentes de IA em produção atendendo a escola inteira, servidores MCP, integração com sistemas sem API e sistemas internos de ponta a ponta.</p></div>
       <div class="tl-item reveal"><div class="tl-date">05/2025 — 07/2025</div><h3 data-i18n="tl.h2">Analista de Monitoramento de Falhas</h3><div class="co">AgiBank</div><p data-i18n="tl.p2">Dashboards de falhas críticas em Grafana, Salesforce e Power BI para TI, Crédito e Fraudes.</p></div>
       <div class="tl-item reveal"><div class="tl-date">06/2024 — 05/2025</div><h3 data-i18n="tl.h3">Suporte a Negócios</h3><div class="co">AgiBank</div><p data-i18n="tl.p3">Suporte em tempo real ao back office e tratamento de ocorrências críticas orientado por SLA.</p></div>
       <div class="tl-item reveal"><div class="tl-date">2019 — 2024</div><h3 data-i18n="tl.h4">Operações e risco</h3><div class="co">Eletrônica PST</div><p data-i18n="tl.p4">Rastreamento em tempo real, relatórios para seguradoras e help desk. Onde aprendi a resolver sob pressão.</p></div>
@@ -522,10 +529,10 @@ const I18N = {
     'legend.internal':'internos','legend.parents':'atendimento a pais','legend.mkt':'marketing',
     'impact.eyebrow':'Impacto real','impact.title':'Agentes em produção,<br><span class="grad">não em slide.</span>',
     'impact.lead':'Números de uma operação real, rodando todos os dias numa escola em Campinas.',
-    'impact.s1':'agentes de IA em produção','impact.s2':'pessoas atendidas pelos agentes','impact.s3':'operação contínua, pedidos direto do celular',
+    'impact.s1':'agentes de IA em produção','impact.s2':'da escola atendida: direção, professores, secretaria e famílias','impact.s3':'operação contínua, pedidos direto do celular',
     'impact.before':'1+ dia','impact.after':'horas','impact.s4':'para processos como planilhas e correção de provas',
     'demo.eyebrow':'Como funciona','demo.title':'Um pedido no celular.<br><span class="grad">O agente resolve o resto.</span>',
-    'demo.lead':'Simulação de um fluxo típico: o agente entende o pedido, consulta sistemas via MCP, busca regras com RAG, prepara a entrega e espera a aprovação humana.',
+    'demo.lead':'Simulação de um fluxo típico: o agente entende o pedido, consulta sistemas via MCP, busca as regras na base de conhecimento, prepara a entrega e espera a aprovação humana.',
     'demo.agentName':'Agente Coordenação','demo.online':'online','demo.typing':'digitando…','demo.input':'Mensagem','demo.replay':'↻ repetir',
     'demo.note':'* Demonstração ilustrativa com dados fictícios.',
     'pipe.1':'Pedido','pipe.2':'Agente','pipe.4':'Aprovação humana','pipe.5':'Entrega',
@@ -538,14 +545,14 @@ const I18N = {
     'svc.c5t':'Integrações','svc.c5':'APIs, webhooks, chaves e permissões: faço os sistemas conversarem entre si de forma confiável.',
     'svc.c6t':'Dados e sistemas','svc.c6':'Sistemas internos de ponta a ponta, SQL/Supabase e dashboards em Power BI e Grafana.',
     'proj.eyebrow':'Projetos','proj.title':'Coisas que eu<br><span class="grad">coloquei para rodar.</span>','proj.live':'Em produção',
-    'proj.p1t':'Ecossistema de agentes escolares','proj.p1':'15 agentes que cuidam de demandas de coordenação, professores, secretaria, marketing e atendimento a pais, com aprovação humana antes de cada entrega.',
+    'proj.p1t':'Ecossistema de agentes escolares','proj.p1':'Mais de 50 agentes que atendem a escola inteira: direção, coordenação, professores, secretaria, financeiro, marketing e famílias, com aprovação humana nos pontos críticos.',
     'proj.p2t':'Servidores MCP para sistemas internos','proj.p2':'Ferramentas MCP que deixam a IA consultar, validar e lançar dados no sistema acadêmico com regras e limites definidos.',
-    'proj.p3t':'RAG sobre regras e documentos','proj.p3':'Base de conhecimento vetorizada para os agentes responderem com as regras reais da instituição, citando a fonte.',
+    'proj.p3t':'IA que opera sistemas sem API','proj.p3':'Agentes trabalhando em plataformas legadas, CRM e financeiro que não têm API, com automação de navegador, login automático, cofre de credenciais e vigia de sessão.',
     'proj.p4t':'Sistemas internos de ponta a ponta','proj.p4':'Sistemas de ocorrências e controle de faltas criados do zero, com backend, frontend e integrações com Google Workspace.',
     'stack.eyebrow':'Stack',
     'tl.eyebrow':'Trajetória','tl.title':'Do atendimento<br><span class="grad">à automação com IA.</span>',
     'tl.lead':'Anos resolvendo problemas na linha de frente me ensinaram a automatizar o que realmente importa para quem usa.',
-    'tl.d1':'2025 — hoje','tl.p1':'15 agentes de IA em produção, servidores MCP, RAG e sistemas internos de ponta a ponta.',
+    'tl.d1':'2025 — hoje','tl.p1':'Mais de 50 agentes de IA em produção atendendo a escola inteira, servidores MCP, integração com sistemas sem API e sistemas internos de ponta a ponta.',
     'tl.h2':'Analista de Monitoramento de Falhas','tl.p2':'Dashboards de falhas críticas em Grafana, Salesforce e Power BI para TI, Crédito e Fraudes.',
     'tl.h3':'Suporte a Negócios','tl.p3':'Suporte em tempo real ao back office e tratamento de ocorrências críticas orientado por SLA.',
     'tl.h4':'Operações e risco','tl.p4':'Rastreamento em tempo real, relatórios para seguradoras e help desk. Onde aprendi a resolver sob pressão.',
@@ -563,10 +570,10 @@ const I18N = {
     'legend.internal':'internal','legend.parents':'parent support','legend.mkt':'marketing',
     'impact.eyebrow':'Real impact','impact.title':'Agents in production,<br><span class="grad">not on a slide.</span>',
     'impact.lead':'Numbers from a live operation, running every day at a school in Brazil.',
-    'impact.s1':'AI agents in production','impact.s2':'people served by the agents','impact.s3':'always on, requests straight from mobile',
+    'impact.s1':'AI agents in production','impact.s2':'of the school served: leadership, teachers, front office and families','impact.s3':'always on, requests straight from mobile',
     'impact.before':'1+ day','impact.after':'hours','impact.s4':'for tasks like spreadsheets and exam grading',
     'demo.eyebrow':'How it works','demo.title':'One request on the phone.<br><span class="grad">The agent handles the rest.</span>',
-    'demo.lead':'A typical flow: the agent understands the request, queries systems through MCP, looks up rules with RAG, prepares the deliverable and waits for human approval.',
+    'demo.lead':'A typical flow: the agent understands the request, queries systems through MCP, looks up rules in the knowledge base, prepares the deliverable and waits for human approval.',
     'demo.agentName':'Coordination Agent','demo.online':'online','demo.typing':'typing…','demo.input':'Message','demo.replay':'↻ replay',
     'demo.note':'* Illustrative demo with fictional data.',
     'pipe.1':'Request','pipe.2':'Agent','pipe.4':'Human approval','pipe.5':'Delivery',
@@ -579,14 +586,14 @@ const I18N = {
     'svc.c5t':'Integrations','svc.c5':'APIs, webhooks, keys and permissions: I make systems talk to each other reliably.',
     'svc.c6t':'Data & systems','svc.c6':'End-to-end internal systems, SQL/Supabase and dashboards in Power BI and Grafana.',
     'proj.eyebrow':'Projects','proj.title':'Things I<br><span class="grad">put into production.</span>','proj.live':'In production',
-    'proj.p1t':'School agent ecosystem','proj.p1':'15 agents handling requests from coordinators, teachers, front office, marketing and parents, with human approval before every delivery.',
+    'proj.p1t':'School agent ecosystem','proj.p1':'50+ agents serving the whole school: leadership, coordinators, teachers, front office, finance, marketing and families, with human approval at critical points.',
     'proj.p2t':'MCP servers for internal systems','proj.p2':'MCP tools that let AI query, validate and write data in the academic system within defined rules and limits.',
-    'proj.p3t':'RAG over rules and documents','proj.p3':'A vectorized knowledge base so agents answer with the institution\'s real rules, citing the source.',
+    'proj.p3t':'AI operating systems with no API','proj.p3':'Agents working inside legacy platforms, CRM and finance tools with no API, through browser automation, auto-login, an encrypted credential vault and session watchdogs.',
     'proj.p4t':'End-to-end internal systems','proj.p4':'Incident tracking and attendance systems built from scratch, with backend, frontend and Google Workspace integrations.',
     'stack.eyebrow':'Stack',
     'tl.eyebrow':'Journey','tl.title':'From the front line<br><span class="grad">to AI automation.</span>',
     'tl.lead':'Years solving problems on the front line taught me to automate what actually matters to the people using it.',
-    'tl.d1':'2025 — present','tl.p1':'15 AI agents in production, MCP servers, RAG and end-to-end internal systems.',
+    'tl.d1':'2025 — present','tl.p1':'50+ AI agents in production serving the whole school, MCP servers, integrations with no-API systems and end-to-end internal systems.',
     'tl.h2':'Failure Monitoring Analyst','tl.p2':'Critical failure dashboards in Grafana, Salesforce and Power BI for IT, Credit and Fraud teams.',
     'tl.h3':'Business Support','tl.p3':'Real-time back-office support and SLA-driven handling of critical cases.',
     'tl.h4':'Operations & risk','tl.p4':'Real-time vehicle tracking, insurer reports and help desk. Where I learned to solve under pressure.',
